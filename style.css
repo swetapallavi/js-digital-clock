@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+}
+
+.box {
+    text-align: center;
+}
+
+.hours,.minutes,.seconds,.am-pm {
+    width: 80px;
+    height: 80px;
+    background-color: blueviolet;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    box-shadow: 3px 3px 9px rgb(106, 24, 184), -3px -3px 9px rgb(162, 92, 228);
+}
+
+#hours,#minutes,#seconds,#am-pm {
+    font-size: 2em;
+}
+
+.box h1 {
+    font-size: 1em;
+}
